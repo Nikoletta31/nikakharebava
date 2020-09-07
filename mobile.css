@@ -153,7 +153,7 @@
             
               .htmll{
                 font-family:Arial, Helvetica, sans-serif;
-                color:rgba(221, 219, 210, 0.884);
+                color:rgb(245, 243, 243);
                 display:flex;
                 padding:20px;
                 margin:50px;
@@ -252,7 +252,7 @@
             
             .htmll3{
             font-family:Arial, Helvetica, sans-serif;
-            color:rgba(221, 219, 210, 0.884);
+            color:rgb(245, 243, 243);
             display:flex;
             padding:20px;
             margin:50px;
