@@ -1,17 +1,25 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-image: url(./sky.jpg); 
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; 
+  background-image:white;
   height:100%;
     margin:0px;
+    padding:0px;
+    overflow-x:hidden;
 
   }
+
+
+
 
 /*navigation*/
 
@@ -116,15 +124,7 @@ a:hover{
  
  /*section 1*/
 
- .sec1{
-  background-image: url(./sky.jpg); 
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; 
-  margin-top:0px;
-  padding-top:200px;
-    
-}  
+
 
  @keyframes text{
   from {opacity:0%;}
@@ -132,14 +132,19 @@ a:hover{
   } 
 
 .text-welcome{
-height:85%;
+height:100%;
 
 margin-left: auto;
 margin-right: auto;
 
  margin-bottom:0px;
  margin-top:0px;
-
+ background-image: url(./sky.jpg); 
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  margin-top:0px;
+  padding-top:200px;
 
 } 
 
@@ -394,7 +399,7 @@ padding:10px;
 text-align: center;
 justify-content: center;
 margin-bottom:0px;
-padding-bottom:Opx;
+
 
 } 
 
@@ -461,6 +466,8 @@ margin-top:1px;
   width:100%;
   display:flex;
   justify-content: center;
+  height:20%;
+  
   ;
   
 }
@@ -492,10 +499,10 @@ margin-top:1px;
     
     } 
 
-    .sec6{
+  .sec6{
     background-color: #4cc28b;;
-    height:80%;
-      padding-top:0px;
+    
+     
       
     
     
@@ -508,7 +515,8 @@ margin-top:1px;
      text-align:center;
      text-transform: uppercase;
      font-weight:bolder;
-     padding:100px;
+     padding-top:50px;;
+     padding-bottom:50px;;
      font-weight:lighter;
      width:100%;
      
@@ -528,6 +536,15 @@ margin-top:1px;
       font-size:1.2em; 
       color:rgb(20, 20, 20);
       text-align:left; 
-      padding-bottom:200px;
+      padding-bottom:100px;
+      
    
-     } 
+     }    
+
+
+
+
+
+
+
+
