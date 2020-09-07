@@ -13,10 +13,16 @@ function myFunction() {
     }
   
 
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip({'delay': { show: 1, hide: 3000 }
-    });   
-});
+    
+    tippy('#myButton', {
+      content: 'Click to copy my email',
+     
+    });
+
+    tippy('#myButton', {
+      content: 'My e-mail has been copied :)',
+      trigger: 'click',
+    });
 
  
 
