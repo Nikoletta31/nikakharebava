@@ -1,10 +1,11 @@
-<html>
+<html lang="en">
     <head>
         <title>Nika Kharebava</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
       <link rel="stylesheet" href="css.css">  
       <link rel="stylesheet" href="mobile.css">  
       <link rel="stylesheet" href="tablet.css">  
+      <link rel="stylesheet" href="smallmobile.css">  
       <link rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Archivo+Black">
   <link rel="stylesheet"
@@ -45,12 +46,12 @@
              <div class="links2">
               <ul class="navbar-nav ml-auto nav-flex-icons">
                 <li class="nav-item">
-                    <a href="javascript:void(0)" onclick="myFunction()" class="nav-link nav-hover"  data-toggle="tooltip" data-placement="bottom" title="copy e-mail"><i class="far fa-envelope fa-lg"></i></a>
+                    <a  id="myButton" href="javascript:void(0)" onclick="myFunction()" class="nav-link nav-hover"  ><i class="far fa-envelope fa-lg"></i></a>
                    
                  </li>
                   
                 <li class="nav-item">
-                   <a href="https://www.linkedin.com/in/nika-kharebava-70175a145/" class="nav-link nav-hover"><i class="fab fa-linkedin fa-lg"></i></a>
+                   <a  href="https://www.linkedin.com/in/nika-kharebava-70175a145/" class="nav-link nav-hover"><i class="fab fa-linkedin fa-lg"></i></a>
                   
                 </li>
                
@@ -65,7 +66,7 @@
          
 
           <input type="text" value="nika1kharebava@gmail.com" id="myInput">
-
+      
 
 
 
@@ -74,19 +75,19 @@
 
 <!----welcome----->
 
-<section class="sec1" id="home">
+
 <div class="text-welcome">
  <h1>Hi,</h1>
  <h2><span>I</span> <span>a</span><span>m</span> <span>N</span><span>i</span><span>k</span><span>a</span>.</h2>
  <p>Creative front-end developer.</p>
 </div>
-</section>
+
 
 
 
 <!----about me----->
 
-<section class="sec2" id="about">
+<div class="sec2" id="about">
 
 <img data-aos="fade-right" data-aos-duration="3000" class="photo" src="Capture d’écran 2020-01-25 à 14.43.12.PNG"/>
 
@@ -105,11 +106,11 @@
         </p>
     </div>
 
-</section>
+  </div>
 
 <!----skills----->
 
-<section id="skills" class="sec3">
+<div id="skills" class="sec3">
     
     <div class="text-skills">
       
@@ -154,12 +155,12 @@
 
 </div>
     </div>
-</section>
+</divn>
 
-<section class="sec6">
+<div class="sec6">
   
   <h3 class="what">What I am looking for?</h3>
-    <div class="looking">
+  <div class="looking">
   <p>My goal is to find a job where I will be able to reliaze my <strong>first professional experience</strong> and to develop my skills. 
     I am motivated and I want to learn. 
     Web development is the sphere that <strong>I am passionate</strong> about and where I would like to impove myself. 
@@ -169,22 +170,22 @@
     
   </p>
 </div>
-</section>
+</div>
 
-<section class="sec4">
+<div class="sec4">
 <div class="copy">
-  <a href="javascript:void(0)" onclick="myFunction()" class="envelope"  data-toggle="tooltip" data-placement="bottom" title="copy e-mail"><i class="far fa-envelope fa-3x"></i></a>
+  <a id="myButton" href="javascript:void(0)" onclick="myFunction()" class="envelope"  ><i class="far fa-envelope fa-3x"></i></a>
   <a href="https://www.linkedin.com/in/nika-kharebava-70175a145/" class="envelope"><i class="fab fa-linkedin fa-3x"></i></a>
 </div>
-</section>
+</div>
 
-<section class="sec7">
-  <div>
+<div class="sec7">
+  
 <h2 class="footer">&copy; Nika Kharebava 2020</h2>
 </div>
-</section>
 
-
+<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+<script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
