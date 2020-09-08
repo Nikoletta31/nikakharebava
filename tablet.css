@@ -1,16 +1,16 @@
 @media (min-width: 760px) and (max-width: 1025px) {
     
   .text-welcome{
-      height:85%;
+      
       
       background-image: url(./sky.jpg); 
       background-position: center; /* Center the image */
       background-repeat: no-repeat; /* Do not repeat the image */
       background-size: cover; 
-       margin-bottom:0px;
+      padding-bottom:300px;
        width:100%;
        text-align:center;
-       padding-top:40%;
+       padding-top:300px;
       
       
       } 
